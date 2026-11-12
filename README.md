@@ -6,7 +6,9 @@
 
 ## 怎么看
 
-直接用浏览器打开 `index.html` 就能播放，不需要构建，也不需要服务器。想放到网上，可以在仓库的 Settings → Pages 里把 `main` 分支设为站点来源。
+在线观看：<https://gangtao.github.io/how_agent_works/>
+
+也可以把仓库下载下来，直接用浏览器打开 `index.html` 播放，不需要构建，也不需要服务器。
 
 - 空格键播放或暂停，左右方向键切换上一幕和下一幕
 - 顶部的进度菜单可以直接跳到某一幕
@@ -41,6 +43,10 @@
 - [霞鹜文楷 LXGW WenKai](https://github.com/lxgw/LxgwWenKai)，SIL OFL 1.1，页面内嵌了一个子集
 - 思源宋体和思源黑体（Noto Serif SC、Noto Sans SC），SIL OFL 1.1，从 Google Fonts 加载
 
+## 许可证
+
+本仓库的代码采用 [MIT 许可证](LICENSE)。内嵌和加载的字体各自遵循 SIL OFL 1.1。
+
 ---
 
 # How an Agent Gets Work Done (3D explainer)
@@ -51,7 +57,9 @@ A playable 3D explainer drawn with three.js. A small robot sits at a workbench, 
 
 ## Viewing
 
-Open `index.html` in a browser. There is no build step and no server. To host it, enable GitHub Pages for the `main` branch under Settings → Pages.
+Watch it online: <https://gangtao.github.io/how_agent_works/>
+
+Or download the repository and open `index.html` in a browser. There is no build step and no server.
 
 - Space plays or pauses; the left and right arrow keys move between scenes
 - The progress menu at the top jumps straight to a scene
@@ -85,3 +93,7 @@ Page text is written in Chinese. The script holds an `EN` table that maps each C
 - [three.js](https://threejs.org/) r128, MIT license, loaded from cdnjs
 - [LXGW WenKai](https://github.com/lxgw/LxgwWenKai), SIL OFL 1.1, a subset is embedded in the page
 - Noto Serif SC and Noto Sans SC, SIL OFL 1.1, loaded from Google Fonts
+
+## License
+
+The code in this repository is released under the [MIT License](LICENSE). The embedded and loaded fonts remain under SIL OFL 1.1.
